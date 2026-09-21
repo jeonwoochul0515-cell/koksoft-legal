@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>콕콕 위치기반서비스 이용약관 — 콕콕</title>
+<meta name="robots" content="index, follow">
+<meta name="description" content="콕소프트 (KokSoft)가 운영하는 콕콕의 위치기반서비스 이용약관입니다.">
+<style>
+:root { color-scheme: light dark; --fg:#18181b; --dim:#71717a; --bg:#ffffff; --line:#e4e4e7; --accent:#e11d48; }
+@media (prefers-color-scheme: dark) {
+  :root { --fg:#f4f4f5; --dim:#a1a1aa; --bg:#09090b; --line:#27272a; --accent:#fb7185; }
+}
+* { box-sizing: border-box; }
+body {
+  margin:0; padding:2.5rem 1.25rem 5rem; background:var(--bg); color:var(--fg);
+  font-family:"Pretendard","Apple SD Gothic Neo","Noto Sans KR",system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:16px; line-height:1.75; word-break:keep-all; overflow-wrap:anywhere;
+  -webkit-text-size-adjust:100%;
+}
+main { max-width:42rem; margin:0 auto; }
+h1 { font-size:1.5rem; line-height:1.4; margin:0 0 .5rem; letter-spacing:-.02em; }
+h2 { font-size:1.0625rem; margin:2.25rem 0 .5rem; letter-spacing:-.01em; }
+h3 { font-size:.9375rem; color:var(--dim); margin:1.5rem 0 .25rem; }
+p { margin:.5rem 0; }
+ul { margin:.5rem 0; padding-left:1.1rem; }
+li { margin:.3rem 0; }
+.sub { display:inline-block; padding-left:.75rem; color:var(--dim); }
+.note, li .note { color:var(--dim); font-size:.9375rem; }
+a { color:inherit; text-underline-offset:.2em; }
+.pending { background:var(--accent); color:#fff; padding:0 .25rem; border-radius:.2rem; font-size:.875rem; }
+.meta { color:var(--dim); font-size:.875rem; margin:0 0 2rem; padding-bottom:1.25rem; border-bottom:1px solid var(--line); }
+.back { display:inline-block; margin-bottom:1.5rem; color:var(--dim); font-size:.875rem; text-decoration:none; }
+.back:hover { color:var(--fg); }
+nav ul { list-style:none; padding:0; }
+nav li { margin:0; border-bottom:1px solid var(--line); }
+nav a { display:block; padding:1rem .25rem; text-decoration:none; }
+nav a:hover { color:var(--accent); }
+footer { margin-top:3.5rem; padding-top:1.25rem; border-top:1px solid var(--line); color:var(--dim); font-size:.875rem; }
+</style>
+</head>
+<body>
+<main>
+<a class="back" href="./">← 콕콕 법적 고지</a>
+<h1>위치기반서비스 이용약관</h1>
+<p class="meta">시행일 2026-09-21 · 콕소프트 (KokSoft)</p>
+    <p>콕소프트 (KokSoft) (이하 &quot;회사&quot;)는 「위치정보의 보호 및 이용 등에 관한 법률」에 따라 이용자의 위치정보를 보호하고, 위치기반서비스 이용에 관한 사항을 다음과 같이 안내합니다.</p>
+    <p class="note">※ 위치기반서비스사업 신고번호: <mark class="pending">[PENDING: 방송미디어통신위원회 신고 후 기재]</mark></p>
+    <h2>제1조 (목적)</h2>
+    <p>본 약관은 회사가 제공하는 위치기반서비스와 관련하여 회사와 이용자의 권리·의무 및 책임사항을 정하는 것을 목적으로 합니다.</p>
+    <h2>제2조 (서비스 내용)</h2>
+    <ul><li>근처에 있는 이용자를 거리순으로 표시</li><li>거리 구간(전국 / 40km / 15km / 10km)으로 범위를 좁혀 탐색</li></ul>
+    <h2>제3조 (위치정보의 이용)</h2>
+    <ul><li>회사는 이용자가 동의한 경우에만 위치정보를 수집·이용합니다.</li><li>수집한 위치정보는 위 제2조의 목적에만 쓰며, 목적 외로 이용하지 않습니다.</li><li>다른 이용자에게 제공되는 것은 좌표가 아니라 100m 단위로 끊은 거리뿐입니다.</li><li>저장하는 좌표에는 이용자마다 고정된 오차를 섞습니다. 여러 지점에서 반복 조회해도 실제 위치를 역산할 수 없습니다.</li></ul>
+    <h2>제4조 (보유 및 이용 기간)</h2>
+    <ul><li>위치정보는 서비스 제공에 필요한 기간 동안만 보유합니다.</li><li>이용자가 위치 공개를 끄거나 탈퇴하면 저장된 좌표를 즉시 삭제합니다.</li></ul>
+    <h2>제5조 (제3자 제공)</h2>
+    <ul><li>회사는 이용자의 개인위치정보를 제3자에게 제공하지 않습니다.</li><li>서버 인프라 운영을 위해 Supabase Inc.에 처리를 위탁합니다.</li></ul>
+    <h2>제6조 (동의 철회와 일시 중지)</h2>
+    <ul><li>이용자는 언제든지 앱의 [내 정보 &gt; 위치 공개]에서 동의를 철회할 수 있습니다.</li><li>철회하면 저장된 좌표가 그 자리에서 삭제되며, 거리 기반 탐색은 이용할 수 없습니다.</li><li>동의하지 않아도 전국 목록과 대화 기능은 그대로 이용할 수 있습니다.</li></ul>
+    <h2>제7조 (이용자의 권리)</h2>
+    <p>이용자는 다음을 요구할 수 있습니다.</p>
+    <ul><li>위치정보 수집·이용·제공 사실 확인자료의 열람·고지</li><li>위치정보 이용 동의의 전부 또는 일부 철회</li><li>위치정보의 일시 중지 또는 삭제</li></ul>
+    <p>요청은 <a href="mailto:help@koksoft.co.kr">help@koksoft.co.kr</a> 으로 접수합니다.</p>
+    <h2>제8조 (8세 이하 아동 등의 보호)</h2>
+    <ul><li>본 서비스는 만 19세 이상만 이용할 수 있으므로 8세 이하 아동 등의 위치정보를 수집하지 않습니다.</li></ul>
+    <h2>제9조 (손해배상 및 분쟁)</h2>
+    <ul><li>회사가 관련 법령을 위반하여 이용자에게 손해를 입힌 경우 법령에 따라 책임을 집니다.</li><li>분쟁은 방송미디어통신위원회의 재정 또는 관할 법원을 통해 해결합니다.</li></ul>
+    <h2>제10조 (위치정보관리책임자)</h2>
+    <ul><li>책임자: <mark class="pending">[PENDING: 성명 기재]</mark></li><li>연락처: <a href="mailto:help@koksoft.co.kr">help@koksoft.co.kr</a></li></ul>
+    <p>시행일: 2026-09-21</p>
+<footer>
+콕소프트 (KokSoft) · 문의 <a href="mailto:help@koksoft.co.kr">help@koksoft.co.kr</a><br>
+이 문서는 앱 내 [내 정보 &gt; 약관 및 정책]에서도 동일하게 확인할 수 있습니다.
+</footer>
+</main>
+</body>
+</html>
